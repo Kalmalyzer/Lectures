@@ -8,12 +8,6 @@ PowerPoint.currentPage = -1;
 PowerPoint.desiredPage = 0;
 
 
-// does not yet work
-$("#main_header").keypress(function() {
-	$("#whole_document").append("<p>apa</p>");
-	PowerPoint.nextPage();
-});
-
 PowerPoint.append_page = function(description, activateFunc, deactivateFunc, animateFunc) {
 		PowerPoint.pages.push({ "description" : description,
 			"activateFunc" : activateFunc,
@@ -44,3 +38,15 @@ PowerPoint.run = function () {
 PowerPoint.nextPage = function () {
 	PowerPoint.desiredPage = (PowerPoint.desiredPage + 1) % PowerPoint.pages.length;
 }
+
+PowerPoint.handleKeyPress = function (event) {
+
+	event = event || window.event;
+	
+	var keyCode = event.charCode || event.keyCode;
+	
+	if (keyCode == 32)
+		PowerPoint.nextPage();
+}
+
+document.onkeydown=PowerPoint.handleKeyPress;

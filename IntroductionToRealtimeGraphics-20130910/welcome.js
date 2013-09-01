@@ -13,7 +13,7 @@ function welcome_activate() {
 }
 
 function welcome_deactivate() {
-	$("#dynamic_area").remove($("#welcomeHTML"));
+	$("#welcomeHTML").remove();
 }
 
 function welcome_render() {

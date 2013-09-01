@@ -21,7 +21,7 @@ function about_activate() {
 }
 
 function about_deactivate() {
-	$("#dynamic_area").remove($("#aboutHTML"));
+	$("#aboutHTML").remove();
 }
 
 function about_render() {
