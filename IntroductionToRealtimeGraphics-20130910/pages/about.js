@@ -26,3 +26,5 @@ function about_deactivate() {
 
 function about_render() {
 }
+
+PowerPoint.append_page("About", about_activate, about_deactivate, about_render);

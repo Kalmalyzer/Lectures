@@ -30,10 +30,9 @@
 
 			<script src="powerpoint.js"></script>
 			
-			<script src="examplepage.js"></script>
-
-			<script src="welcome.js"></script>
-			<script src="about.js"></script>
+			<script src="pages/welcome.js"></script>
+			<script src="pages/about.js"></script>
+			<script src="pages/display.js"></script>
 		</div>
 
 			<script>
@@ -42,8 +41,6 @@
 
 				var camera, scene, renderer;
 
-				PowerPoint.append_page("Welcome", welcome_activate, welcome_deactivate, welcome_render);
-				PowerPoint.append_page("About", about_activate, about_deactivate, about_render);
 				PowerPoint.run();
 			</script>
 	</body>

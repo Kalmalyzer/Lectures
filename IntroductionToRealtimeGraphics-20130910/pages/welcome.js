@@ -18,3 +18,5 @@ function welcome_deactivate() {
 
 function welcome_render() {
 }
+
+PowerPoint.append_page("Welcome", welcome_activate, welcome_deactivate, welcome_render);
