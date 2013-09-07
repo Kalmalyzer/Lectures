@@ -30,14 +30,18 @@ PowerPoint.run = function () {
 			
 			PowerPoint.currentPage = PowerPoint.desiredPage;
 		}
-		
+
 		var page = PowerPoint.pages[PowerPoint.currentPage];
 
-		$("#main_header").text(page.description);
+		$("#page_name").text(page.description);
+		$("#page_id").text("Page " + (PowerPoint.currentPage + 1) + " of " + PowerPoint.pages.length);
 		page.animateFunc();
 	}
 	else
-		$("#main_header").text("No pages registered");
+	{
+		$("#page_name").text("No pages registered");
+		$("#page_id").text("");
+	}
 };
 
 PowerPoint.previousPage = function () {
