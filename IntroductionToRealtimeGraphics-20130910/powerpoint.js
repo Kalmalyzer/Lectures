@@ -18,21 +18,26 @@ PowerPoint.append_page = function(description, activateFunc, deactivateFunc, ani
 PowerPoint.run = function () {
 	requestAnimationFrame(PowerPoint.run);
 
-	if (PowerPoint.currentPage != PowerPoint.desiredPage)
+	if (PowerPoint.pages.length != 0)
 	{
-		if (PowerPoint.currentPage != -1)
-			PowerPoint.pages[PowerPoint.currentPage].deactivateFunc();
+		if (PowerPoint.currentPage != PowerPoint.desiredPage)
+		{
+			if (PowerPoint.currentPage != -1)
+				PowerPoint.pages[PowerPoint.currentPage].deactivateFunc();
 
-		if (PowerPoint.desiredPage != -1)
-			PowerPoint.pages[PowerPoint.desiredPage].activateFunc();
+			if (PowerPoint.desiredPage != -1)
+				PowerPoint.pages[PowerPoint.desiredPage].activateFunc();
+			
+			PowerPoint.currentPage = PowerPoint.desiredPage;
+		}
 		
-		PowerPoint.currentPage = PowerPoint.desiredPage;
-	}
-	
-	var page = PowerPoint.pages[PowerPoint.currentPage];
+		var page = PowerPoint.pages[PowerPoint.currentPage];
 
-	$("#main_header").text(page.description);
-	page.animateFunc();
+		$("#main_header").text(page.description);
+		page.animateFunc();
+	}
+	else
+		$("#main_header").text("No pages registered");
 };
 
 PowerPoint.previousPage = function () {
