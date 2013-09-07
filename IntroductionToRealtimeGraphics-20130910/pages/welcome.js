@@ -6,6 +6,8 @@ var welcomeHTML =
 "	<div class='container' style='margin-top:50px;margin-bottom:50px'><p><h1>Pixel pushing bonanza</h1></p></div>" +
 "	<p><h2>Mikael Kalms</h2></p>" +
 "	<p>mikael@kalms.org</p>" +
+"	<p><br><br><br></p>" +
+"	<p> use space and arrow keys to navigate</p>" +
 "</div>";
 
 function welcome_activate() {

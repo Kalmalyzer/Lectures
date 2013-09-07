@@ -35,6 +35,10 @@ PowerPoint.run = function () {
 	page.animateFunc();
 };
 
+PowerPoint.previousPage = function () {
+	PowerPoint.desiredPage = (PowerPoint.desiredPage + PowerPoint.pages.length - 1) % PowerPoint.pages.length;
+}
+
 PowerPoint.nextPage = function () {
 	PowerPoint.desiredPage = (PowerPoint.desiredPage + 1) % PowerPoint.pages.length;
 }
@@ -45,8 +49,13 @@ PowerPoint.handleKeyPress = function (event) {
 	
 	var keyCode = event.charCode || event.keyCode;
 	
-	if (keyCode == 32)
+	// Left arrow == previous page
+	if (keyCode == 37)
+		PowerPoint.previousPage();
+	// Right arrow or Space == next page
+	if (keyCode == 39 || keyCode == 32)
 		PowerPoint.nextPage();
 }
 
 document.onkeydown=PowerPoint.handleKeyPress;
+
