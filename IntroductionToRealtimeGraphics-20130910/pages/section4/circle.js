@@ -5,10 +5,30 @@ var circleHTML =
 "<div id='circleHTML' class='container'>" +
 "	<div class='row'>" +
 "		<div class='span6'>" +
-"			<p>TODO UPDATE</p>" +
+"			<p>Drawing a circle, by in/out test for every pixel</p>" +
 
 "<p><pre>" +
-"TODO UPDATE<br>" +
+"function isInside(x, y) {<br>" +
+"  var dx = x - x0;<br>" +
+"  var dy = y - y0;<br>" +
+"  var sqrDistance = dx * dx + dy * dy;<br>" +
+"  if (sqrDistance &lt; radius * radius)<br>" +
+"    return true;<br>" +
+"  else<br>" +
+"    return false;<br>" +
+"}<br>" +
+"<br>" +
+"for (var y = 0; y &lt; 480; y++)<br>" +
+"  for (var x = 0; x &lt; 600; x++)<br>" +
+"  {<br>" +
+"    var color;<br>" +
+"    if (isInside(x, y))<br>" +
+"      color = { r: 255, g: 255, b: 0};<br>" +
+"    else<br>" +
+"      color = { r: 0, g: 0, b: 0};<br>" +
+"<br>" +
+"    dest.drawPixel(x, y, color);<br>" +
+"  }<br>" +
 "</pre></p>" +
 
 "		</div>" +
@@ -34,21 +54,33 @@ function circle_deactivate() {
 	circle_frameBuffer = null;
 }
 
+var circle_x0;
+var circle_y0;
+var circle_radius;
+
+function circle_isInside(x, y) {
+	var dx = x - circle_x0;
+	var dy = y - circle_y0;
+	var sqrDistance = dx * dx + dy * dy;
+	if (sqrDistance < circle_radius * circle_radius)
+		return true;
+	else
+		return false;
+}
+
 function circle_render() {
 
 	circle_frameBuffer.clear();
 
-	var radius = $("#radius").data("slider").getValue();
-
-	var x0 = circle_frameBuffer.width / 2;
-	var y0 = circle_frameBuffer.height / 2;
+	circle_x0 = circle_frameBuffer.width / 2;
+	circle_y0 = circle_frameBuffer.height / 2;
+	circle_radius = $("#radius").data("slider").getValue();
 	
 	for (var y = 0; y < 480; y++)
 		for (var x = 0; x < 600; x++)
 		{
-			var sqrDistance = (x - x0) * (x - x0) + (y - y0) * (y - y0);
 			var color;
-			if (sqrDistance < radius * radius)
+			if (circle_isInside(x, y))
 				color = { r: 255, g: 255, b: 0};
 			else
 				color = { r: 0, g: 0, b: 0};
