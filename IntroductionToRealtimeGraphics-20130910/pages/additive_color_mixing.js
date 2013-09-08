@@ -2,22 +2,18 @@
 "use strict";
 
 var additiveColorMixingHTML = 
-"<div id='additiveColorMixingHTML' class='container' style='text-align:center'>" +
-"	<p></p>" +
-"	<div class='row'>" +
-"		<div class='span6'>" +
-"			<p><h3>Primary colors: Red, Green, Blue</h3></p>" +
-"			<p><h3>Mix them to create other colors</h3></p>" +
+"<div id='additiveColorMixingHTML' class='container'>" +
+"	<div class='row' style='margin-bottom:20px'>" +
+"		<div class='span6' style='text-align:center; margin-top:100px'>" +
+"			<p>Primary colors: Red, Green, Blue</p>" +
+"			<p>Mix them to create other colors</p>" +
 "		</div>" +
 "		<div class='span6'>" +
-"			<img src='images/rgb_color_mixing.png'></img>" +
+"			<img src='images/rgb_color_mixing.png' width='60%'></img>" +
 "		</div>" +
 "	</div>" +
 "	<div class='row'>" +
-"		<div class='span12' style='display:inline-block; height:50px'>" +
-"	</div>" +
-"	<div class='row'>" +
-"		<div class='span6'>" +
+"		<div class='span6' align='right' style='margin-top:100px'>" +
 "			<table>" +
 "				<tbody>" +
 "					<tr>" +
@@ -41,7 +37,7 @@ var additiveColorMixingHTML =
 "				</tbody>" +
 "			</table>" +
 "		</div>" +
-"		<div class='span6' id='coloredRegion' style='display:inline-block; height:200px'>" +
+"		<div class='span6' id='coloredRegion' style='display:inline-block; width:300px; height:300px'>" +
 "		</div>" +
 "	</div>" +
 "</div>";

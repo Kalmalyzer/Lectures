@@ -2,12 +2,22 @@
 "use strict";
 
 var testHTML = 
-"<div id='testHTML' class='container' style='text-align:center'>" +
+"<div id='testHTML' class='container'>" +
 "	<div class='row'>" +
-"		<div class='span4'>" +
-"			<p><h3>Test</h3></p>" +
+"		<div class='span6'>" +
+"			<p>Test<br><pre>code example<br>  more code<br>" +
+
+"for (var y = 0; y < 480; y++)<br>" +
+"  for (var x = 0; x < 600; x++)<br>" +
+"  {<br>" +
+"    var color = src.readPixel(x, y);<br>" +
+"    dest.drawPixel(x, y, color.r, color.g, color.b);<br>" +
+"  }<br>" +
+
+
+"</pre></p>" +
 "		</div>" +
-"		<div class='span8' id='canvas_parent'>" +
+"		<div class='span6' id='canvas_parent'>" +
 "			<canvas id='canvas' width='640' height='480'></canvas>" +
 "		</div>" +
 "	</div>" +
@@ -32,7 +42,7 @@ function test_render() {
 	test_frameBuffer.clear();
 	
 	for (var y = 0; y < 480; y++)
-		for (var x = 0; x < 640; x++)
+		for (var x = 0; x < 600; x++)
 		{
 			var color = globalTestImage.readPixel(x, y);
 			test_frameBuffer.drawPixel(x, y, color.r, color.g, color.b);

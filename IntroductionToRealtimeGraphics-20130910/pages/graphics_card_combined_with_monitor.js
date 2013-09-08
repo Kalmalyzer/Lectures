@@ -5,11 +5,11 @@ var graphicsCardCombinedWithMonitorHTML =
 "<div id='graphicsCardCombinedWithMonitorHTML' class='container' style='text-align:center'>" +
 "	<div class='row'>" +
 "		<div class='span6'>" +
-"			<p><h3>The graphics card has memory: that is where the image resides (the 'framebuffer')</h3></p>" +
-"			<p><h3>The display circuitry fetches pixel data from the framebuffer, and sends it over the video cable - over and over again, at the appropriate rate.</h3></p>" +
+"			<p>The graphics card has memory: that is where the image resides (the 'framebuffer')</p>" +
+"			<p>The display circuitry fetches pixel data from the framebuffer, and sends it over the video cable - over and over again, at the appropriate rate.</p>" +
 "		</div>" +
 "		<div class='span6'>" +
-"			<p><h3>The monitor expects the stream of pixel data to arrive at a steady rate over the video cable - over and over again, and updates elements on the display accordingly.</h3></p>" +
+"			<p>The monitor expects the stream of pixel data to arrive at a steady rate over the video cable - over and over again, and updates elements on the display accordingly.</p>" +
 "		</div>" +
 "	</div>" +
 "	<div class='row'>" +

@@ -2,14 +2,13 @@
 "use strict";
 
 var resolutionsAndRefreshRatesHTML = 
-"<div id='resolutionsAndRefreshRatesHTML' class='container' style='text-align:center'>" +
+"<div id='resolutionsAndRefreshRatesHTML' class='container'>" +
 "	<div class='row'>" +
-"		<div class='span6'>" +
-"			<p><h3>Specs for a modern monitor:</h3></p>" +
-"			<p><h3>Resolution: 1920 x 1080 pixels</h3></p>" +
-"			<p><h3>Refresh rate: 60 Hz</h3></p>" +
-"			<p><br></p> " +
-"			<p><h3>Monitors usually accept a couple of lower resolutions, and automatically up-scale them</h3></p>" +
+"		<div class='span6' style='margin-top:100px'>" +
+"			<p>Specs for a modern monitor:<br>" +
+"				Resolution: 1920 x 1080 pixels</br>" +
+"				Refresh rate: 60 Hz<br></p>" +
+"			<p>Monitors usually accept a couple of lower resolutions, and automatically up-scale them</p>" +
 "		</div>" +
 "		<div class='span6'>" +
 "			<img src='images/monitor.jpg'></img>" +
