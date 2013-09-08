@@ -39,7 +39,9 @@
 			<script src="slider/js/bootstrap-slider.js"></script>
 
 			<script src="powerpoint.js"></script>
-
+			<script src="FrameBuffer.js"></script>
+			<script src="SourceImage.js"></script>
+<!--
 			<script src="pages/welcome.js"></script>
 			<script src="pages/about.js"></script>
 			<script src="pages/display.js"></script>
@@ -47,11 +49,15 @@
 			<script src="pages/pixels_images_and_coordinate_systems.js"></script>
 			<script src="pages/graphics_card_combined_with_monitor.js"></script>
 			<script src="pages/resolutions_and_refresh_rates.js"></script>
+-->
+			<script src="pages/test/framebuffer_test.js"></script>
 
 		</div>
 
 			<script>
 
+				var globalTestImage = new SourceImage("images/OldSkool.gif");
+			
 				var container;
 
 				var camera, scene, renderer;
