@@ -15,13 +15,13 @@ function FrameBuffer(canvas) {
 		}
 	}
 
-	this.drawPixel = function(x, y, r, g, b) {
+	this.drawPixel = function(x, y, color) {
 		if (x >= 0 && x < this.width && y >= 0 && y <= this.height) {
 			var offset = ((y * this.width) + x) * 4;
 			
-			this.data[offset + 0] = r;
-			this.data[offset + 1] = g;
-			this.data[offset + 2] = b;
+			this.data[offset + 0] = color.r;
+			this.data[offset + 1] = color.g;
+			this.data[offset + 2] = color.b;
 		}
 	}
 

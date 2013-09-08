@@ -11,7 +11,7 @@ var testHTML =
 "  for (var x = 0; x < 600; x++)<br>" +
 "  {<br>" +
 "    var color = src.readPixel(x, y);<br>" +
-"    dest.drawPixel(x, y, color.r, color.g, color.b);<br>" +
+"    dest.drawPixel(x, y, color);<br>" +
 "  }<br>" +
 
 
@@ -45,7 +45,7 @@ function test_render() {
 		for (var x = 0; x < 600; x++)
 		{
 			var color = globalTestImage.readPixel(x, y);
-			test_frameBuffer.drawPixel(x, y, color.r, color.g, color.b);
+			test_frameBuffer.drawPixel(x, y, color);
 		}
 
 	test_frameBuffer.update();
