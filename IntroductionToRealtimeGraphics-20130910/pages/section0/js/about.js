@@ -2,8 +2,8 @@
 "use strict";
 
 var aboutHTML = 
-"<div id='aboutHTML' class='container'>" +
-"	<div class='container' style='margin-top:50px;margin-bottom:50px'><p><h1>About this lecture</h1></p></div>" +
+"<div id='aboutHTML' class='container' style='margin-top:100px; margin-left:200px'>" +
+"	<div class='container' style='margin-bottom:100px'><p><h1>About this lecture</h1></p></div>" +
 "   <p>We'll talk basic computer graphics</p>" +
 "	<ul>" +
 "		<li>Images and displays</li>" +
