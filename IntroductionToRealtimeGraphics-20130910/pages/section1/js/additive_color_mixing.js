@@ -9,7 +9,7 @@ var additiveColorMixingHTML =
 "			<p>Mix them to create other colors</p>" +
 "		</div>" +
 "		<div class='span6'>" +
-"			<img src='images/rgb_color_mixing.png' width='60%'></img>" +
+"			<img src='pages/section1/img/rgb_color_mixing.png' width='60%'></img>" +
 "		</div>" +
 "	</div>" +
 "	<div class='row'>" +

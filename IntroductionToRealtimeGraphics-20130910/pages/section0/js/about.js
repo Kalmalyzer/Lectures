@@ -6,13 +6,11 @@ var aboutHTML =
 "	<div class='container' style='margin-top:50px;margin-bottom:50px'><p><h1>About this lecture</h1></p></div>" +
 "   <p>We'll talk basic computer graphics</p>" +
 "	<ul>" +
-"		<li>displays</li>" +
-"		<li>what's a pixel?</li>" +
-"		<li>images</li>" +
-"		<li>framebuffers & graphics cards</li>" +
-"		<li>drawing shapes</li>" +
-"		<li>choosing colors</li>" +
-"		<li>connecting this to 3D hardware and maths</li>" +
+"		<li>Images and displays</li>" +
+"		<li>Pixel manipulation</li>" +
+"		<li>Image bending</li>" +
+"		<li>Rendering shapes</li>" +
+"		<li>Improving performance</li>" +
 "	</ul>" +
 "</div>";
 

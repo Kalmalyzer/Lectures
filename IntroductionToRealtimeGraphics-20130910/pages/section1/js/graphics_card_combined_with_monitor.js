@@ -17,7 +17,7 @@ var graphicsCardCombinedWithMonitorHTML =
 "	</div>" +
 "	<div class='row'>" +
 "		<div class='span12'>" +
-"			<img src='images/graphics_card_combined_with_monitor.jpg'></img>" +
+"			<img src='pages/section1/img/graphics_card_combined_with_monitor.jpg'></img>" +
 "		</div>" +
 "	</div>" +
 "</div>";

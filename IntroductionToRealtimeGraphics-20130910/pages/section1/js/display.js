@@ -14,7 +14,7 @@ var camera = new THREE.PerspectiveCamera( 60, 1, 1, 10000 );
 camera.position.z = 50;
 
 var geometry = new THREE.PlaneGeometry(80, 50);
-var texture = THREE.ImageUtils.loadTexture( "images/monitor.jpg" );
+var texture = THREE.ImageUtils.loadTexture( "pages/section1/img/monitor.jpg" );
 var material = new THREE.MeshBasicMaterial( { map: texture } );
 
 var scene = new THREE.Scene();
@@ -24,7 +24,7 @@ var pixels_layer_materials = new Array();
 
 for (var i = 0; i < 5; i++)
 {
-	var pixels_layer_texture = THREE.ImageUtils.loadTexture("images/pixels_layer" + i + ".png");
+	var pixels_layer_texture = THREE.ImageUtils.loadTexture("pages/section1/img/pixels_layer" + i + ".png");
 	pixels_layer_texture.repeat.set(400, 400);
 	pixels_layer_texture.wrapS = THREE.RepeatWrapping;
 	pixels_layer_texture.wrapT = THREE.RepeatWrapping;

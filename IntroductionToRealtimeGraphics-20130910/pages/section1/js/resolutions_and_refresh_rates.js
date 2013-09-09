@@ -11,7 +11,7 @@ var resolutionsAndRefreshRatesHTML =
 "			<p>Monitors usually accept a couple of lower resolutions, and automatically up-scale them</p>" +
 "		</div>" +
 "		<div class='span6'>" +
-"			<img src='images/monitor.jpg'></img>" +
+"			<img src='pages/section1/img/monitor.jpg'></img>" +
 "		</div>" +
 "	</div>" +
 "</div>";

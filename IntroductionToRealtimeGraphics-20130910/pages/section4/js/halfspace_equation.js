@@ -3,7 +3,7 @@
 
 var halfSpaceEquationHTML = 
 "<div id='halfSpaceEquationHTML' class='container' style='text-align:center'>" +
-"	<img src='images/Halfspace_Equation.png'></img>" +
+"	<img src='pages/section4/img/Halfspace_Equation.png'></img>" +
 "</div>";
 
 function halfSpaceEquation_activate() {

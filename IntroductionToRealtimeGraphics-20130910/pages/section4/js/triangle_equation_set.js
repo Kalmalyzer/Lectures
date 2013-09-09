@@ -3,7 +3,7 @@
 
 var triangleEquationSetHTML = 
 "<div id='triangleEquationSetHTML' class='container' style='text-align:center'>" +
-"	<img src='images/Triangle_equation_set.png'></img>" +
+"	<img src='pages/section4/img/Triangle_equation_set.png'></img>" +
 "</div>";
 
 function triangleEquationSet_activate() {

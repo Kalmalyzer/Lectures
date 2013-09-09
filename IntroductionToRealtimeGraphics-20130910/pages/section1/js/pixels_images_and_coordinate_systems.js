@@ -14,7 +14,7 @@ var pixelsImagesAndCoordinateSystemsHTML =
 "			<p> " +
 "		</div>" +
 "		<div class='span6'>" +
-"			<img src='images/image_with_coordinate_system.png'></img>" +
+"			<img src='pages/section1/img/image_with_coordinate_system.png'></img>" +
 "		</div>" +
 "	</div>" +
 "	<div class='row'>" +

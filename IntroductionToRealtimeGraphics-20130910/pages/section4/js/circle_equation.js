@@ -3,7 +3,7 @@
 
 var circleEquationHTML = 
 "<div id='circleEquationHTML' class='container' style='text-align:center'>" +
-"	<img src='images/Circle_Equation.png'></img>" +
+"	<img src='pages/section4/img/Circle_Equation.png'></img>" +
 "</div>";
 
 function circleEquation_activate() {

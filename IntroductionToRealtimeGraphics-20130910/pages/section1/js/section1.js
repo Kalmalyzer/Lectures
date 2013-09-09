@@ -17,4 +17,4 @@ function section1_deactivate() {
 function section1_render() {
 }
 
-PowerPoint.append_page("Section 2", section1_activate, section1_deactivate, section1_render);
+PowerPoint.append_page("Section 1", section1_activate, section1_deactivate, section1_render);
