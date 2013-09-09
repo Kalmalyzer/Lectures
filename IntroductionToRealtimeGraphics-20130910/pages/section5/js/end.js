@@ -3,7 +3,7 @@
 
 var section5HTML = 
 "<div id='section5HTML' class='container' style='text-align:center'>" +
-"	<div class='container' style='margin-top:200px; margin-bottom:200px'><p><h1>The End.<br><br>Questions?</h1><br><br>mikael@kalms.org</p></div>" +
+"	<div class='container' style='margin-top:100px; margin-bottom:200px'><p><h1>The End.<br><br>Questions?</h1><br><br>mikael@kalms.org<br><br>Download this lecture: http://www.github.com/Kalmalyzer/Lectures</p></div>" +
 "</div>";
 
 function section5_activate() {

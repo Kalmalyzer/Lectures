@@ -8,14 +8,34 @@ var triangleHTML =
 "			<p>Drawing a triangle, by in/out test for every pixel</p>" +
 
 "<p><pre>" +
-"TODO<br>" +
-"</pre></p>" +
+"function halfSpace.isInside(x, y) {<br>" +
+"	return x * this.a + y * this.b + this.c > 0;<br>" +
+"}<br>" +
+"<br>" +
+"function isInside(x, y) {<br>" +
+"	return halfSpace0.isInside(x, y)<br>" +
+"		&& halfSpace1.isInside(x, y)<br>" +
+"		&& halfSpace2.isInside(x, y);<br>" +
+"}<br>" +
+"<br>" +
+"for (var y = 0; y &lt; 480; y++)<br>" +
+"  for (var x = 0; x &lt; 600; x++)<br>" +
+"  {<br>" +
+"    var color;<br>" +
+"    if (isInside(x, y))<br>" +
+"      color = { r: 255, g: 255, b: 0};<br>" +
+"    else<br>" +
+"      color = { r: 0, g: 0, b: 0};<br>" +
+"<br>" +
+"    dest.drawPixel(x, y, color);<br>" +
+"  }<br>" +
+"</pre></p>" + 
 
 "		</div>" +
 "		<div class='span6'>" +
-"           <input id='testHalfSpace0' type='checkbox' value='1'>Test first halfspace</input>" +
-"           <input id='testHalfSpace1' type='checkbox' value='1'>Test second halfspace</input>" +
-"           <input id='testHalfSpace2' type='checkbox' value='1'>Test third halfspace</input>" +
+"			<div><input id='testHalfSpace0' type='checkbox' value='1'>Test first halfspace</input></div>" +
+"			<div><input id='testHalfSpace1' type='checkbox' value='1'>Test second halfspace</input></div>" +
+"			<div><input id='testHalfSpace2' type='checkbox' value='1'>Test third halfspace</input></div>" +
 "			<canvas id='canvas' width='640' height='480'></canvas>" +
 "		</div>" +
 "	</div>" +
