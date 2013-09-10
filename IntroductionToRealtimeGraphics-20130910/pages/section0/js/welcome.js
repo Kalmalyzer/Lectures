@@ -8,7 +8,7 @@ var welcomeHTML =
 "		<h2>Mikael Kalms</h2><br>" +
 "		mikael@kalms.org<br><br><br><br><br>" +
 "		use space and arrow keys to navigate<br><br>" +
-"		make sure your browser allows local file access" +
+"		Viewing the HTML locally? Make sure your browser allows local file access, or else pictures won't load" +
 "	</p>" +
 "</div>";
 
