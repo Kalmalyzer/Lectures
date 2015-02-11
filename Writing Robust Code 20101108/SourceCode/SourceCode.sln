@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example1", "TextureStreamer-Example1\TextureStreamer-Example1.vcxproj", "{33FB7F89-B467-48AE-95AF-B93AFE8F530C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example2", "TextureStreamer-Example2\TextureStreamer-Example2.vcxproj", "{06EBFDD4-AA57-4EB6-A308-EE4DAA3DDA9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example3", "TextureStreamer-Example3\TextureStreamer-Example3.vcxproj", "{4FFF09EB-738E-4673-9EB9-BA2388473FA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example4", "TextureStreamer-Example4\TextureStreamer-Example4.vcxproj", "{3DEBADCF-1C2C-468D-BE3B-83AD27BB50E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example5", "TextureStreamer-Example5\TextureStreamer-Example5.vcxproj", "{E722C0D9-3CBD-4883-9290-D33F3A095942}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureStreamer-Example6", "TextureStreamer-Example6\TextureStreamer-Example6.vcxproj", "{F99971F9-438D-43BE-A413-803FFE3D838C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FB7F89-B467-48AE-95AF-B93AFE8F530C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33FB7F89-B467-48AE-95AF-B93AFE8F530C}.Debug|Win32.Build.0 = Debug|Win32
+		{33FB7F89-B467-48AE-95AF-B93AFE8F530C}.Release|Win32.ActiveCfg = Release|Win32
+		{33FB7F89-B467-48AE-95AF-B93AFE8F530C}.Release|Win32.Build.0 = Release|Win32
+		{06EBFDD4-AA57-4EB6-A308-EE4DAA3DDA9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06EBFDD4-AA57-4EB6-A308-EE4DAA3DDA9C}.Debug|Win32.Build.0 = Debug|Win32
+		{06EBFDD4-AA57-4EB6-A308-EE4DAA3DDA9C}.Release|Win32.ActiveCfg = Release|Win32
+		{06EBFDD4-AA57-4EB6-A308-EE4DAA3DDA9C}.Release|Win32.Build.0 = Release|Win32
+		{4FFF09EB-738E-4673-9EB9-BA2388473FA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4FFF09EB-738E-4673-9EB9-BA2388473FA4}.Debug|Win32.Build.0 = Debug|Win32
+		{4FFF09EB-738E-4673-9EB9-BA2388473FA4}.Release|Win32.ActiveCfg = Release|Win32
+		{4FFF09EB-738E-4673-9EB9-BA2388473FA4}.Release|Win32.Build.0 = Release|Win32
+		{3DEBADCF-1C2C-468D-BE3B-83AD27BB50E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DEBADCF-1C2C-468D-BE3B-83AD27BB50E7}.Debug|Win32.Build.0 = Debug|Win32
+		{3DEBADCF-1C2C-468D-BE3B-83AD27BB50E7}.Release|Win32.ActiveCfg = Release|Win32
+		{3DEBADCF-1C2C-468D-BE3B-83AD27BB50E7}.Release|Win32.Build.0 = Release|Win32
+		{E722C0D9-3CBD-4883-9290-D33F3A095942}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E722C0D9-3CBD-4883-9290-D33F3A095942}.Debug|Win32.Build.0 = Debug|Win32
+		{E722C0D9-3CBD-4883-9290-D33F3A095942}.Release|Win32.ActiveCfg = Release|Win32
+		{E722C0D9-3CBD-4883-9290-D33F3A095942}.Release|Win32.Build.0 = Release|Win32
+		{F99971F9-438D-43BE-A413-803FFE3D838C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F99971F9-438D-43BE-A413-803FFE3D838C}.Debug|Win32.Build.0 = Debug|Win32
+		{F99971F9-438D-43BE-A413-803FFE3D838C}.Release|Win32.ActiveCfg = Release|Win32
+		{F99971F9-438D-43BE-A413-803FFE3D838C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

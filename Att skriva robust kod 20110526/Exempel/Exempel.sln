@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Do not repeat yourself", "Do not repeat yourself\Do not repeat yourself.vcxproj", "{5AF16824-83E9-465C-9D9F-A5FCCD96DCDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skriv kod som inte kan gå fel", "Skriv kod som inte kan gå fel\Skriv kod som inte kan gå fel.vcxproj", "{7CC99E5D-A2DF-4B65-80AB-780CB8B8D754}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Det är knäskott på dessa konstruktioner", "Det är knäskott på dessa konstruktioner\Det är knäskott på dessa konstruktioner.vcxproj", "{BA9C7175-5145-411A-A47C-E9F2359F3AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF16824-83E9-465C-9D9F-A5FCCD96DCDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5AF16824-83E9-465C-9D9F-A5FCCD96DCDE}.Debug|Win32.Build.0 = Debug|Win32
+		{5AF16824-83E9-465C-9D9F-A5FCCD96DCDE}.Release|Win32.ActiveCfg = Release|Win32
+		{5AF16824-83E9-465C-9D9F-A5FCCD96DCDE}.Release|Win32.Build.0 = Release|Win32
+		{7CC99E5D-A2DF-4B65-80AB-780CB8B8D754}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CC99E5D-A2DF-4B65-80AB-780CB8B8D754}.Debug|Win32.Build.0 = Debug|Win32
+		{7CC99E5D-A2DF-4B65-80AB-780CB8B8D754}.Release|Win32.ActiveCfg = Release|Win32
+		{7CC99E5D-A2DF-4B65-80AB-780CB8B8D754}.Release|Win32.Build.0 = Release|Win32
+		{BA9C7175-5145-411A-A47C-E9F2359F3AB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA9C7175-5145-411A-A47C-E9F2359F3AB1}.Debug|Win32.Build.0 = Debug|Win32
+		{BA9C7175-5145-411A-A47C-E9F2359F3AB1}.Release|Win32.ActiveCfg = Release|Win32
+		{BA9C7175-5145-411A-A47C-E9F2359F3AB1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

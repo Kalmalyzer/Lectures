@@ -1,0 +1,261 @@
+
+Performing brute-force CPU computation
+1000 transmitters, 1000 receivers
+Time taken: 67.575836 ms
+Bucket counts:
+0: 734
+1: 225
+2: 38
+3: 3
+
+Performing brute-force CPU computation
+5000 transmitters, 1000 receivers
+Time taken: 333.542664 ms
+Bucket counts:
+0: 3605
+1: 1206
+2: 179
+3: 10
+
+Performing brute-force CPU computation
+10000 transmitters, 1000 receivers
+Time taken: 664.401733 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+------------------------------------------------------------------ 
+
+Performing single-threaded CUDA computation
+1000 transmitters, 1000 receivers
+Time taken: 548.581848 ms
+Bucket counts:
+0: 734
+1: 225
+2: 38
+3: 3
+
+Performing single-threaded CUDA computation
+2000 transmitters, 1000 receivers
+Time taken: 1093.092163 ms
+Bucket counts:
+0: 1470
+1: 453
+2: 68
+3: 9
+------------------------------------------------------------------ 
+
+Performing brute-force CUDA computation
+1000 transmitters, 1000 receivers
+Time taken: 3.694185 ms
+Bucket counts:
+0: 734
+1: 225
+2: 38
+3: 3
+
+Performing brute-force CUDA computation
+5000 transmitters, 1000 receivers
+Time taken: 5.531150 ms
+Bucket counts:
+0: 3605
+1: 1206
+2: 179
+3: 10
+
+Performing brute-force CUDA computation
+10000 transmitters, 1000 receivers
+Time taken: 4.878483 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+------------------------------------------------------------------ 
+
+Performing brute-force CPU computation
+100000 transmitters, 1000 receivers
+Time taken: 6612.203125 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+
+Performing brute-force CUDA computation
+100000 transmitters, 1000 receivers
+Time taken: 13.369925 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+------------------------------------------------------------------ 
+
+Performing bucketized (STL) CPU computation
+10000 transmitters, 1000 receivers
+Time taken: 35.183521 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+
+Performing bucketized (raw) CPU computation
+10000 transmitters, 1000 receivers
+Time taken: 11.887265 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+
+Performing brute-force CUDA computation
+10000 transmitters, 1000 receivers
+Time taken: 4.780286 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+
+Performing bucketized CUDA computation
+10000 transmitters, 1000 receivers
+Time taken: 7.800153 ms
+Bucket counts:
+0: 7315
+1: 2266
+2: 380
+3: 39
+------------------------------------------------------------------ 
+
+Performing bucketized (STL) CPU computation
+100000 transmitters, 1000 receivers
+Time taken: 332.634308 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+
+Performing bucketized (raw) CPU computation
+100000 transmitters, 1000 receivers
+Time taken: 117.497612 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+
+Performing brute-force CUDA computation
+100000 transmitters, 1000 receivers
+Time taken: 13.342408 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+
+Performing bucketized CUDA computation
+100000 transmitters, 1000 receivers
+Time taken: 12.806935 ms
+Bucket counts:
+0: 73225
+1: 22665
+2: 3692
+3: 418
+------------------------------------------------------------------ 
+
+Performing bucketized (STL) CPU computation
+100000 transmitters, 10000 receivers
+Time taken: 2414.912842 ms
+Bucket counts:
+0: 4339
+1: 13638
+2: 21283
+3: 60740
+
+Performing bucketized (raw) CPU computation
+100000 transmitters, 10000 receivers
+Time taken: 891.545837 ms
+Bucket counts:
+0: 4339
+1: 13638
+2: 21283
+3: 60740
+
+Performing brute-force CUDA computation
+100000 transmitters, 10000 receivers
+Time taken: 54.062107 ms
+Bucket counts:
+0: 4339
+1: 13638
+2: 21283
+3: 60740
+
+Performing bucketized CUDA computation
+100000 transmitters, 10000 receivers
+Time taken: 15.171970 ms
+Bucket counts:
+0: 4339
+1: 13638
+2: 21283
+3: 60740
+------------------------------------------------------------------ 
+
+Performing brute-force CUDA computation
+1000000 transmitters, 10000 receivers
+Time taken: 486.382202 ms
+Bucket counts:
+0: 45639
+1: 137477
+2: 214021
+3: 602863
+
+Performing bucketized CUDA computation
+1000000 transmitters, 10000 receivers
+Time taken: 83.024796 ms
+Bucket counts:
+0: 45639
+1: 137477
+2: 214021
+3: 602863
+------------------------------------------------------------------ 
+
+Performing brute-force CUDA computation
+1000000 transmitters, 40000 receivers
+Time taken: 1832.899414 ms
+Bucket counts:
+0: 11
+1: 87
+2: 620
+3: 999282
+
+Performing bucketized CUDA computation
+1000000 transmitters, 40000 receivers
+Time taken: 141.630493 ms
+Bucket counts:
+0: 11
+1: 87
+2: 620
+3: 999282
+------------------------------------------------------------------ 
+
+Performing bucketized CUDA computation
+10000000 transmitters, 50000 receivers
+Time taken: 1492.219727 ms
+Bucket counts:
+0: 0
+1: 53
+2: 484
+3: 9999463
+
+Performing bucketized CUDA computation
+14000000 transmitters, 50000 receivers
+Time taken: 2053.241211 ms
+Bucket counts:
+0: 0
+1: 248
+2: 1198
+3: 13998554
