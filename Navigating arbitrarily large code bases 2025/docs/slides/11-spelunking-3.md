@@ -1,0 +1,3 @@
+# Spelunking around ...
+
+"Source", "Programs", "Plugins". What's in those...?

@@ -1,0 +1,3 @@
+# Spelunking around ...
+
+Each "Program" seems to be its own application. Are these separate applications? If C++, do they have a "main" or WinMain or DllMain entry point? That would prove it.

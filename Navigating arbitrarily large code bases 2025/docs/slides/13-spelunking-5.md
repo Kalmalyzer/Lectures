@@ -1,0 +1,3 @@
+# Spelunking around ...
+
+"Private", "Public" subfolders. C++ stuff inside those folders. Why these folders? Is this typical C++?
